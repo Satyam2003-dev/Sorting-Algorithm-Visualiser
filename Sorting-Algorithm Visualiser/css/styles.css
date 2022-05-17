@@ -1,0 +1,96 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: rgb(150, 175, 197);
+}
+
+.navbar{
+    position: relative;
+    bottom: 16px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(20, 34, 114);
+    color: whitesmoke;
+}
+
+ul {
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li {
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.speed {
+    display: flex;
+}
+
+.arena {
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.element {
+    width: 10px;
+    margin-left: 2px;
+    background-color: blueviolet;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(20, 34, 114);
+}
+
+a {
+    color: whitesmoke;
+}
+
+.created {
+    margin-top: 5px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.play-pause {
+    text-align: center;
+}
+
+#pause {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(61, 61, 122);
+    border-radius: 10px;
+}
+
+#stop {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(61, 61, 122);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .arena {
+      margin-bottom: 60px;
+    }
+    .navbar {
+        font-size: 10px;
+    }
+  }
